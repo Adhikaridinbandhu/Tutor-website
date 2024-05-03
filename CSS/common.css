@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #0063ff;
+  --color-secondary: #ffcf3a;
+  --color-orange: #fc9049;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-green: #73bc00;
+  --color-brown: #fa6400;
+  --color-pink: #fe6baa;
+  --color-box-shadow: rgba(0, 0, 0, 0.25);
+}
+.html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #00aeef 1%;
+  font-family: "open sans", sans-serif;
+}
+.container {
+  width: 1100px;
+  margin: 0px auto;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 16px;
+  box-shadow: 0px 2px 2px var(--color-box-shadow);
+  padding: 10px 12px;
+  border: none;
+}
+.text-main {
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-orange);
+}
+.text-second {
+  font-size: 22px;
+  font-weight: 800;
+}
+.text-para {
+  font-size: 14px;
+  font-weight: 500;
+}
+.text-center {
+  text-align: center;
+}
+.customize-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.icon-design {
+  padding: 8px;
+  color: white;
+  fill: white;
+  border-radius: 5px;
+  margin-left: 7px;
+}
+.testimonial-image {
+  width: 90px; /* adjust as needed */
+  height: 95px; /* adjust as needed */
+  border-radius: 50%; /* This creates the circular shape */
+  overflow: hidden; /* This hides the parts of the image outside the circle */
+  margin-top: 25px;
+}
